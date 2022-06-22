@@ -436,3 +436,13 @@ h1 {
     font-weight: 200;
     word-spacing: 5px;
 }
+
+/* medium screen */
+@media (min-width: 500px) {
+
+}
+
+/* large screen */
+@media (min-width: 800px) {
+
+}
