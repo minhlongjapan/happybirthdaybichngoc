@@ -32,7 +32,7 @@ span {
     /* margin-left: 90px; */
 }
 .balloon {
-    width: 738px;
+    width: 650px;
     margin: 0 auto;
     padding-top: 30px;
     position: relative;
@@ -659,7 +659,7 @@ h1 {
         font-size: 3.5em;
     }
     #player {
-        margin-left: 700px;
+        margin-left: 500px;
         margin-top: 0;
     }
 
@@ -696,7 +696,7 @@ h1 {
         font-size: 3.5em;
     }
     #player {
-        margin-left: 700px;
+        margin-left: 500px;
         margin-top: 0;
     }
 }
@@ -725,13 +725,13 @@ h1 {
     }
     h1 {
         position: relative;
-        top: 60px;
+        top: 50px;
         text-align: center;
         color: white;
         font-size: 3.5em;
     }
     #player {
-        margin-left: 700px;
+        margin-left: 500px;
         margin-top: 0;
     }
 }
@@ -742,7 +742,7 @@ h1 {
     .avatar {
         cursor: pointer;
         position: absolute;
-        top: 50%;
+        top: 60%;
         left: calc(50% - 100px);
     }
     
@@ -762,13 +762,13 @@ h1 {
     }
     h1 {
         position: relative;
-        top: 100px;
+        top: 20px;
         text-align: center;
         color: white;
         font-size: 3.5em;
     }
     #player {
-        margin-left: 700px;
+        margin-left: 500px;
         margin-top: 0;
     }
 }
@@ -779,7 +779,7 @@ h1 {
     .avatar {
         cursor: pointer;
         position: absolute;
-        top: 50%;
+        top: 70%;
         left: calc(50% - 100px);
     }
     
@@ -799,13 +799,13 @@ h1 {
     }
     h1 {
         position: relative;
-        top: 100px;
+        top: 20px;
         text-align: center;
         color: white;
         font-size: 3.5em;
     }
     #player {
-        margin-left: 700px;
+        margin-left: 500px;
         margin-top: 0;
     }
 }
