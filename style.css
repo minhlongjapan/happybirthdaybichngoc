@@ -705,7 +705,7 @@ h1 {
     .avatar {
         cursor: pointer;
         position: absolute;
-        top: 40%;
+        top: 30%;
         left: calc(50% - 100px);
     }
     
