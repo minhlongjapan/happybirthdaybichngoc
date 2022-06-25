@@ -29,7 +29,7 @@ span {
     padding: 10px;
     margin: 0 auto;
     position: relative;
-    margin-left: 90px;
+    /* margin-left: 90px; */
 }
 .balloon {
     width: 738px;
@@ -233,7 +233,7 @@ span {
 .avatar {
     cursor: pointer;
     position: absolute;
-    top: 50%;
+    top: 50px;
     left: calc(50% - 100px);
 }
 
@@ -254,7 +254,7 @@ span {
 
 .avatar__title {
     cursor: pointer;
-    margin-top: -100px;
+    /* margin-top: -100px; */
     -webkit-animation: balloon1 4s ease-in-out infinite;
     -moz-animation: balloon1 4s ease-in-out infinite;
     -o-animation: balloon1 4s ease-in-out infinite;
@@ -426,7 +426,7 @@ span {
 }
 h1 {
     position: relative;
-    top: 20px;
+    top: 100px;
     text-align: center;
     color: white;
     font-size: 3.5em;
@@ -629,7 +629,7 @@ h1 {
       margin-left: 80%; } }
 
 
-  @media all and (max-width: 410px) {
+  @media all and (min-width: 320px) {
     .avatar {
         cursor: pointer;
         position: absolute;
@@ -653,7 +653,7 @@ h1 {
     }
     h1 {
         position: relative;
-        top: 20px;
+        top: 100px;
         text-align: center;
         color: white;
         font-size: 3.5em;
@@ -664,3 +664,148 @@ h1 {
     }
 
     }
+
+/* Dành cho máy tính bảng chiều dọc */
+@media all and (min-width: 600px) {
+    .avatar {
+        cursor: pointer;
+        position: absolute;
+        top: 30%;
+        left: calc(50% - 100px);
+    }
+    
+    .avatar__img {
+        width: 300px;
+        height: 300px;
+        border-radius: 50%;
+        border: 5px solid rgba(234, 15, 150, 0.9);
+        box-shadow: inset 10px 10px 10px rgba(15, 219, 234, 0.9);
+        -webkit-animation: balloon1 6s ease-in-out infinite;
+        -moz-animation: balloon1 6s ease-in-out infinite;
+        -o-animation: balloon1 6s ease-in-out infinite;
+        animation: balloon1 6s ease-in-out infinite;
+        display: block; 
+        margin-left: auto; 
+        margin-right: auto;
+    }
+    h1 {
+        position: relative;
+        top: 60px;
+        text-align: center;
+        color: white;
+        font-size: 3.5em;
+    }
+    #player {
+        margin-left: 600px;
+        margin-top: 0;
+    }
+}
+/* Dành cho máy tính bảng chiều dọc */
+@media all and (min-width: 850px) {
+    .avatar {
+        cursor: pointer;
+        position: absolute;
+        top: 40%;
+        left: calc(50% - 100px);
+    }
+    
+    .avatar__img {
+        width: 300px;
+        height: 300px;
+        border-radius: 50%;
+        border: 5px solid rgba(234, 15, 150, 0.9);
+        box-shadow: inset 10px 10px 10px rgba(15, 219, 234, 0.9);
+        -webkit-animation: balloon1 6s ease-in-out infinite;
+        -moz-animation: balloon1 6s ease-in-out infinite;
+        -o-animation: balloon1 6s ease-in-out infinite;
+        animation: balloon1 6s ease-in-out infinite;
+        display: block; 
+        margin-left: auto; 
+        margin-right: auto;
+    }
+    h1 {
+        position: relative;
+        top: 60px;
+        text-align: center;
+        color: white;
+        font-size: 3.5em;
+    }
+    #player {
+        margin-left: 600px;
+        margin-top: 0;
+    }
+}
+
+
+/* Dành cho máy tính bảng chiều ngang */
+@media all and (min-width: 1024px) {
+    .avatar {
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        left: calc(50% - 100px);
+    }
+    
+    .avatar__img {
+        width: 300px;
+        height: 300px;
+        border-radius: 50%;
+        border: 5px solid rgba(234, 15, 150, 0.9);
+        box-shadow: inset 10px 10px 10px rgba(15, 219, 234, 0.9);
+        -webkit-animation: balloon1 6s ease-in-out infinite;
+        -moz-animation: balloon1 6s ease-in-out infinite;
+        -o-animation: balloon1 6s ease-in-out infinite;
+        animation: balloon1 6s ease-in-out infinite;
+        display: block; 
+        margin-left: auto; 
+        margin-right: auto;
+    }
+    h1 {
+        position: relative;
+        top: 100px;
+        text-align: center;
+        color: white;
+        font-size: 3.5em;
+    }
+    #player {
+        margin-left: 600px;
+        margin-top: 0;
+    }
+}
+
+
+/* Dành cho màn hình desktop */
+@media all and (min-width: 1280px) {
+    .avatar {
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        left: calc(50% - 100px);
+    }
+    
+    .avatar__img {
+        width: 300px;
+        height: 300px;
+        border-radius: 50%;
+        border: 5px solid rgba(234, 15, 150, 0.9);
+        box-shadow: inset 10px 10px 10px rgba(15, 219, 234, 0.9);
+        -webkit-animation: balloon1 6s ease-in-out infinite;
+        -moz-animation: balloon1 6s ease-in-out infinite;
+        -o-animation: balloon1 6s ease-in-out infinite;
+        animation: balloon1 6s ease-in-out infinite;
+        display: block; 
+        margin-left: auto; 
+        margin-right: auto;
+    }
+    h1 {
+        position: relative;
+        top: 100px;
+        text-align: center;
+        color: white;
+        font-size: 3.5em;
+    }
+    #player {
+        margin-left: 600px;
+        margin-top: 0;
+    }
+}
