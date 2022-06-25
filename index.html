@@ -13,7 +13,7 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport">
-        <link rel="shortcut icon" type="image/png" href="birthdayCake.png">
+        <link rel="shortcut icon" type="image/png" href="birthdayCake.png"/>
         <title>Happy Birthday</title>
         <link rel="stylesheet" href="./style.css">
         <script>
@@ -45,6 +45,9 @@
 
             </div>
             <div class="container">
+                <audio id="player" autoplay controls loop>
+                    <source src="./music.mp3" type="audio/mp3">
+                </audio>
                 <!-- 2. Dòng chữ Happy Birthday
                 Nếu bạn muốn thêm chữ vào thì phải thay đổi css tương ứng cho nó -->
                 <div class="balloon">
@@ -70,9 +73,9 @@
                 </div>
                 
                 <!-- 5. Phần nhạc -->
-                <audio id="player" autoplay controls loop>
-                    <source src="music.mp3" type="audio/mp3">
-                </audio>
+                <!-- <audio id="player" autoplay controls loop>
+                    <source src="./music.mp3" type="audio/mp3">
+                </audio> -->
             </div>
         </div>
         <script>
